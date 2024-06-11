@@ -21,8 +21,7 @@ function buscarDados(endpoint) {
                 </div>
             `;
             card.addEventListener('click', () => {
-            window.location.href = `/ProjetoAP2-DesenWeb/details.html?id=${jogador.id}`;
-`;
+                window.location.href = `details.html?id=${jogador.id}`;`;
             });
             container.appendChild(card);
             
