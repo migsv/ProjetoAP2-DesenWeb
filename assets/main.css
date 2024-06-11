@@ -97,7 +97,7 @@ body {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: calc(25% - 20px); /* Quatro colunas */
+  width: calc(25% - 20px); 
   height: 500px;
   margin: 10px;
   box-sizing: border-box; 
@@ -120,13 +120,13 @@ body {
 
 @media (max-width: 1024px) {
   .card {
-      width: calc(50% - 20px);
+    width: calc(50% - 20px); 
   }
 }
 
 @media (max-width: 768px) {
   .card {
-      width: 100%; 
+    width: calc(100% - 20px);
   }
 }
 
